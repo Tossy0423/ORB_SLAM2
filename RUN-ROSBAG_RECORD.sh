@@ -28,7 +28,7 @@ function checkdir()
 SAVE_DIRPATH=$PWD
 
 # 保存するディレクトリ名
-SAVE_DIRNAME="bagdata2"
+SAVE_DIRNAME="bagdata"
 
 # bagファイルを保存するファイルパス
 SAVE_FILEPATH="${SAVE_DIRPATH}/${SAVE_DIRNAME}"
