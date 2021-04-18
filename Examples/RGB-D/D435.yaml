@@ -6,8 +6,8 @@
 
 # Camera calibration and distortion parameters (OpenCV) 
 Camera.fx: 609.4661865234375
-Camera.fy: 339.3728332519531
-Camera.cx: 608.1245727539062
+Camera.fy: 608.1245727539062
+Camera.cx: 339.3728332519531
 Camera.cy: 247.2937774658203
 
 Camera.k1: 0.0
@@ -26,7 +26,7 @@ Camera.fps: 30.0
 Camera.bf: 40.0
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
-Camera.RGB: 1
+Camera.RGB: 0
 
 # Close/Far threshold. Baseline times.
 ThDepth: 40.0
@@ -39,13 +39,13 @@ DepthMapFactor: 5000.0
 #--------------------------------------------------------------------------------------------
 
 # ORB Extractor: Number of features per image
-ORBextractor.nFeatures: 1000
+ORBextractor.nFeatures: 3000
 
 # ORB Extractor: Scale factor between levels in the scale pyramid 	
 ORBextractor.scaleFactor: 1.2
 
 # ORB Extractor: Number of levels in the scale pyramid	
-ORBextractor.nLevels: 8
+ORBextractor.nLevels: 12
 
 # ORB Extractor: Fast threshold
 # Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
