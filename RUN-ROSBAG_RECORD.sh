@@ -63,7 +63,7 @@ $SAVE_DIRPATH"
 ${NOW_DATE}_zed.bag"
 
     # 実行コマンド作成
-    _cmd="rosbag record /zed/zed_node/right/image_rect_gray /zed/zed_node/left/image_rect_gray -O ${SAVE_FILEPATH}/${NOW_DATE}_zed"
+    _cmd="rosbag record /zed/zed_node/left/image_rect_color /zed/zed_node/left/camera_info /zed/zed_node/right/image_rect_color /tf -O ${SAVE_FILEPATH}/${NOW_DATE}_zed"
     echo "実行コマンド:
 $_cmd"
     
