@@ -25,7 +25,7 @@ function checkdir()
 # echo "実行時の引数の数 >> ${#}"
 
 # 保存するディレクトリパス
-SAVE_DIRPATH=$PWD
+SAVE_DIRPATH="/mnt/ssd1000"
 
 # 保存するディレクトリ名
 SAVE_DIRNAME="bagdata"
