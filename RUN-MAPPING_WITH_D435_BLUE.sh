@@ -4,7 +4,7 @@
 source ~/.bashrc
 
 # 
-readonly SETTING_FILE_PATH="Examples/RGB-D/D435.yaml"
+readonly SETTING_FILE_PATH="Examples/RGB-D/d435_blue.yaml"
 echo "Setting file path            >>  ${SETTING_FILE_PATH}"
 
 readonly SUBSCRIBE_IMAGE_COLOR="/camera/rgb/image_raw:=/camera/color/image_raw"
