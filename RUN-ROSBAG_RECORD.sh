@@ -35,7 +35,7 @@ SAVE_FILEPATH="${SAVE_DIRPATH}/${SAVE_DIRNAME}"
 echo "$SAVE_FILEPATH"
 
 # bagdataデータ名とする実行時刻を取得
-NOW_DATE=`date '+%Y%m%d-%H%M%S'`
+NOW_DATE=`date '+%Y.%m.%d-%H%M%S'`
 
 
 
