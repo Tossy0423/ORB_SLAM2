@@ -9,10 +9,10 @@
 # https://github.com/raulmur/ORB_SLAM2/issues/89
  
 # Camera calibration and distortion parameters (OpenCV) 
-Camera.fx: 688.0711669921875
-Camera.fy: 688.0711669921875
-Camera.cx: 609.1551513671875
-Camera.cy: 359.2457275390625
+Camera.fx: 688.6426391601562
+Camera.fy: 688.6426391601562
+Camera.cx: 609.1519165039062
+Camera.cy: 359.2627868652344
  
 Camera.k1: 0.0
 Camera.k2: 0.0
