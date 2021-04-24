@@ -9,10 +9,10 @@ source ~/.bashrc
 readonly SETTING_FILE_PATH="Examples/Stereo/ZED.yaml"
 echo "Setting file path            >>  ${SETTING_FILE_PATH}"
 
-readonly SUBSCRIBE_IMAGE_RIGHT="/camera/right/image_raw:=/zed/zed_node/right/image_rect_gray"
+readonly SUBSCRIBE_IMAGE_RIGHT="/camera/right/image_raw:=/zed/zed_node/right/image_rect_color"
 echo "Subscribe image right topic  >>  ${SUBSCRIBE_IMAGE_RIGHT}"
 
-readonly SUBSCRIBE_IMAGE_LEFT="/camera/left/image_raw:=/zed/zed_node/left/image_rect_gray"
+readonly SUBSCRIBE_IMAGE_LEFT="/camera/left/image_raw:=/zed/zed_node/left/image_rect_color"
 echo "Subscribe image left topic  >>  ${SUBSCRIBE_IMAGE_LEFT}"
 
 
